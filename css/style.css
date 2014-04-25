@@ -1,0 +1,10 @@
+body{
+  font-family: 'Ubuntu', 'sans-serif';
+}
+/***********************
+*** Miscelaneas
+************************/
+.contenedor{
+  width: 960px;
+  margin: auto;  
+}
