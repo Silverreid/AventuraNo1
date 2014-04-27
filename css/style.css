@@ -31,6 +31,31 @@ header h1{
   display: table;
 }
 /***********************
+*** Clases para los botones
+************************/
+.oKay,
+.cancel{
+  display: inline-block;
+  min-width: 100px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0 15px;
+  -webkit-border-radius:5px;
+  -mox-border-radius:5px;
+  border-radius:5px;
+}
+.oKay{
+  background: #02BD3A;
+  border: 1px solid #009F50;
+}
+.cancel{
+  background: #E80000;
+  color: white;
+  border: 1px solid #CC0000;
+}
+/***********************
 *** cadenero
 ************************/
 #cadenero{
@@ -60,4 +85,15 @@ footer:before,
 footer:after{
   content: "";
   display: table;
+}
+/***********************
+*** Boton retry
+************************/
+#retry{
+  position: fixed;
+  top: 60%;
+  left: 43%;
+}
+#retry p{
+  margin: 0p;
 }

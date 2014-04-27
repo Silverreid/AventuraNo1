@@ -15,7 +15,16 @@
       <header>      
         <h1>Aventura Fantastica</h1>
       </header>
-      
+      <!-- inicio -->
+      <section id="inicio">        
+        <article class="centrado">
+          <p>Listo para inciar esta aventura?</p>
+          <span class="oKay">Si</span>
+          <span class="cancel">No</span>
+        </article>
+      </section>        
+      <!-- ./inicio -->
+      <!-- cadenero -->
       <section id="cadenero">
         <article>
           <img src="img/cadenero.png" alt="cadenero">
@@ -23,16 +32,35 @@
             <label for="edad">¿Cuantos años tienes?</label>
             <input type="number" id="edad" required />
             <div class="centrado">
-              <input type="submit" value="Dale" />
+              <input type="submit" class="oKay" value="Dale" />
             </div>
           </form>
         </article>
         <p id="mnsj1" class="clearfix centrado">Algo</p>
+      </section>        
+      <!-- ./cadenero -->
+      <!-- Parte1 -->
+      <section id="parte1">
+        <article>
+          <p>Nuestra historia comienza una noche en un callejon oscuro ... recorres este oscuro callejon, escuchas gritos.</p>
+          <p>A lo lejos ves dos siluetas. Es una pelea no logras distinguir quienes son, te acercas un poco mas y logras distinguir las sombras</p>
+          <p>Una de las sombras se aclara y te das cuenta es Batman, este se da cuenta de que lo estas viendo te mira y te pregunta</p>
+          <form id="pregunta" >
+            <label for="respuesta">Se te ofrece algo?</label>
+            <input type="text" id="respuesta">
+          </form>
+        </article>
       </section>
+        
+      <!-- ./Parte1 -->
       
       <footer>
         <p>Copyrigth (c)2014</p>
       </footer>
+    </div>
+    
+    <div id="retry" class="invisible" >
+      <span class="oKay">Jugar De nuevo?</span>
     </div>
     <!-- ./contendor -->
     <!--Jasvascripts-->
