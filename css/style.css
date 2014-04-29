@@ -59,7 +59,7 @@ header h1{
 *** cadenero
 ************************/
 #cadenero{
-  margin: 50px 0;
+  margin: 100px 0;
   overflow: visible;
 }
 #cadenero:after,
@@ -74,6 +74,25 @@ header h1{
 }
 #mnsj1{
   display: none;
+}
+/***********************
+*** parte1
+************************/
+#parte1{
+  margin: 50px 0;
+}
+#pregunta{
+  text-align: center;
+}
+/***********************
+*** parte2
+************************/
+#Respuesta{
+  display: none;
+}
+#imgrespuesta img{
+  width: 300px;
+  height: 300px;
 }
 /***********************
 *** Footer

@@ -19,15 +19,16 @@
       <section id="inicio">        
         <article class="centrado">
           <p>Listo para inciar esta aventura?</p>
-          <span class="oKay">Si</span>
-          <span class="cancel">No</span>
+          <span id="iniciar" class="oKay">Empezemos!</span>
+          <p></p>
         </article>
       </section>        
       <!-- ./inicio -->
       <!-- cadenero -->
-      <section id="cadenero">
+      <section id="cadenero" class="invisible">
         <article>
           <img src="img/cadenero.png" alt="cadenero">
+          <p>Antes que todo, me gustaria preguntarte.</p>
           <form id="validaMayoria">
             <label for="edad">¿Cuantos años tienes?</label>
             <input type="number" id="edad" required />
@@ -40,19 +41,29 @@
       </section>        
       <!-- ./cadenero -->
       <!-- Parte1 -->
-      <section id="parte1">
+      <section id="parte1" class="invisible">
         <article>
           <p>Nuestra historia comienza una noche en un callejon oscuro ... recorres este oscuro callejon, escuchas gritos.</p>
           <p>A lo lejos ves dos siluetas. Es una pelea no logras distinguir quienes son, te acercas un poco mas y logras distinguir las sombras</p>
           <p>Una de las sombras se aclara y te das cuenta es Batman, este se da cuenta de que lo estas viendo te mira y te pregunta</p>
           <form id="pregunta" >
-            <label for="respuesta">Se te ofrece algo?</label>
+            <label for="respuesta">¿Te sientes con suerte?</label>
             <input type="text" id="respuesta">
+              <input type="submit" class="oKay" value="Responder" />
           </form>
         </article>
       </section>
-        
       <!-- ./Parte1 -->
+      <!-- Parte2 -->
+      <section id="Respuesta" class="invisible">
+        <article>
+          <div class="centrado">
+            <img id="imgRespuesta"  alt="image con respuesta">
+          </div>  
+          <p id="fraseRespuesta" >Obvio</p>
+        </article>
+      </section>        
+      <!-- ./Parte2 -->
       
       <footer>
         <p>Copyrigth (c)2014</p>
