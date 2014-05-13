@@ -1,8 +1,9 @@
 body{
   font-family: 'Ubuntu', 'sans-serif';
   font-size: 22px;
+  margin: 0;
+  position: relative;
 }
-
 /***********************
 *** Miscelaneas
 ************************/
@@ -10,6 +11,7 @@ body{
 .contenedor{ 
   width: 960px;
   margin: auto;
+  min-height: 700px;
 }
 header h1{
   text-align: center;
@@ -59,7 +61,7 @@ header h1{
 *** cadenero
 ************************/
 #cadenero{
-  margin: 100px 0;
+  margin: 80px 0;
   overflow: visible;
 }
 #cadenero:after,
@@ -99,20 +101,29 @@ header h1{
 ************************/
 footer{
   clear: both;
+  background: #646C73;
+  color: white;
+  display: block;
+  margin: 0;
+  position: fixed;
+  height: 10%;
+  width: 100%;
+  top: 90%;
+  border-top: 1px solid #5A5A5A;
+  box-shadow: 0px -1px 5px 1px #000;
 }
 footer:before,
 footer:after{
   content: "";
   display: table;
 }
+footer p{
+  text-align: center;
+}
 /***********************
 *** Boton retry
 ************************/
 #retry{
-  position: fixed;
-  top: 60%;
-  left: 43%;
-}
-#retry p{
-  margin: 0p;
+  margin: none;
+  font-size: 18px;
 }
